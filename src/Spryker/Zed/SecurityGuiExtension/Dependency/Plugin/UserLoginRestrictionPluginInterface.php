@@ -20,10 +20,6 @@ interface UserLoginRestrictionPluginInterface
      * - Runs after user data is loaded from the data source.
      *
      * @api
-     *
-     * @param \Generated\Shared\Transfer\UserTransfer $userTransfer
-     *
-     * @return bool
      */
     public function isRestricted(UserTransfer $userTransfer): bool;
 }

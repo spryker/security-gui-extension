@@ -22,8 +22,6 @@ interface AuthenticationLinkPluginInterface
      * @api
      *
      * @see \Spryker\Zed\SecurityOauthUserExtension\Dependency\Plugin\OauthUserClientStrategyPluginInterface::isApplicable()
-     *
-     * @return \Generated\Shared\Transfer\OauthAuthenticationLinkTransfer
      */
     public function getAuthenticationLink(): OauthAuthenticationLinkTransfer;
 }

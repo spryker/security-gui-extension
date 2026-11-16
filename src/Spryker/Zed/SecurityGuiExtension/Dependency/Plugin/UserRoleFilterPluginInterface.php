@@ -20,7 +20,6 @@ interface UserRoleFilterPluginInterface
      *
      * @api
      *
-     * @param \Generated\Shared\Transfer\UserTransfer $userTransfer
      * @param array<string> $roles
      *
      * @return array<string>
